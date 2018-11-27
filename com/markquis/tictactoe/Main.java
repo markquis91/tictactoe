@@ -1,6 +1,7 @@
+package com.markquis.tictactoe;
 
 
-public class GameMain {
+public class Main {
 
 	/**
 	 * This class is responsible for executing the tic tac toe game controller.
@@ -9,9 +10,10 @@ public class GameMain {
 	 * @author Markquis Simmons
 	 */
 	
+	//create a logger
+	
 	public static void main (String[]args) {
-
-		GameController controller = new GameController();
+		Controller controller = new Controller();
 		controller.gameController();
 	}		
 }
